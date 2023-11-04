@@ -1,0 +1,13 @@
+\begin{thebibliography}{1}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+\providecommand{\selectlanguage}[1]{\relax}
+
+\bibitem{1908JRE.....4..411E}
+\textbf{A.~{Einstein}} (1908), {{\"U}ber das Relativit{\"a}tsprinzip und die
+  aus demselben gezogenen Folgerungen}, in \emph{Jahrbuch der
+  Radioaktivit\&auml;t und Elektronik}, 4:411--462.
+
+\end{thebibliography}
