@@ -13,7 +13,7 @@
 \usepackage{graphicx}
 \usepackage{academicons}
 \usepackage{svg}
-
+\usepackage{yfonts,color}
 
 
 \newcommand{\headlinecolor}{\normalcolor}
@@ -22,6 +22,11 @@
 \definecolor{slcolor}{HTML}{882B21}
 
 
+
+\font\Cal=cmsy12 at 25pt
+\textwidth=.5\textwidth
+\def\pstart#1{\noindent\smash{\lower3ex\hbox{\llap{\Cal#1}}\hskip-.2em}
+  \parshape=3 1.5em \dimexpr\hsize-1.5em 2em \dimexpr\hsize-2em 0pt \hsize}
 
 
 \let\Abstract\abstract %color al abstract
