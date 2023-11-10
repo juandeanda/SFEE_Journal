@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.8.22)  8 NOV 2023 18:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.8.22)  10 NOV 2023 13:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -396,15 +396,6 @@ Now handling font encoding LYG ...
 ... no UTF-8 mapping file for font encoding LYG
 LaTeX Info: Composite with undeclared \" in encoding LYG on input line 58.
 )
-! Font \Cal=cmsy12 at 25.0pt not loadable: Metric (TFM) file not found.
-l.26 \font\Cal=cmsy12 at 25pt
-                             
-I wasn't able to read the size data for this font,
-so I will ignore the font specification.
-[Wizards can fix TFM files using TFtoPL/PLtoTF.]
-You might try inserting a different font spec;
-e.g., type `I\font<same font id>=<substitute font name>'.
-
 \c@fnote=\count279
 
 (C:\Users\Juan de Anda\AppData\Local\Programs\MiKTeX\tex/latex/preprint\authblk
@@ -1043,7 +1034,7 @@ LaTeX Font Info:    External font `yinit' loaded for size
 Package microtype Info: Fixing zero \fontdimen 6 for font `U/yinit/m/n/10'
 (microtype)             (new value: 38.66664pt) on input line 44.
 
-Overfull \hbox (12.45242pt too wide) in paragraph at lines 44--45
+Overfull \hbox (15.29773pt too wide) in paragraph at lines 44--45
 \OT1/cmr/m/n/10 (-20) Cap-il-larit^^?atser-schei-n-un-gen" ("Con-clu-sions draw
 n
  []
@@ -1092,20 +1083,14 @@ Overfull \hbox (1.12405pt too wide) in paragraph at lines 91--92
 
 [5 <./Albert_Einstein_Head.jpg> <./Portrait_of_Sir_Isaac_Newton,_1689.jpg>]
 (article.aux)
-
-Package rerunfilecheck Warning: File `article.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `article.out':
-(rerunfilecheck)             Before: 8BB93C8145AD311FC64962DE15FB6EB5;508
-(rerunfilecheck)             After:  D868C9DDB81BE5E70A99780CD7ACE3B7;504.
+Package rerunfilecheck Info: File `article.out' has not changed.
+(rerunfilecheck)             Checksum: D868C9DDB81BE5E70A99780CD7ACE3B7;504.
  ) 
 Here is how much of TeX's memory you used:
- 25962 strings out of 476331
- 503091 string characters out of 5784425
+ 25958 strings out of 476331
+ 503061 string characters out of 5784425
  1867660 words of memory out of 5000000
- 45775 multiletter control sequences out of 15000+600000
+ 45772 multiletter control sequences out of 15000+600000
  524615 words of font info for 129 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  109i,9n,106p,1006b,767s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1130,7 +1115,7 @@ AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Use
 rs/Juan de Anda/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss17.pfb>
 <C:/Users/Juan de Anda/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/u
 hvbo8a.pfb>
-Output written on article.pdf (5 pages, 4711724 bytes).
+Output written on article.pdf (5 pages, 4712337 bytes).
 PDF statistics:
  157 PDF objects out of 1000 (max. 8388607)
  18 named destinations out of 1000 (max. 500000)

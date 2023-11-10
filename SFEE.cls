@@ -23,10 +23,7 @@
 
 
 
-\font\Cal=cmsy12 at 25pt
-\textwidth=.5\textwidth
-\def\pstart#1{\noindent\smash{\lower3ex\hbox{\llap{\Cal#1}}\hskip-.2em}
-  \parshape=3 1.5em \dimexpr\hsize-1.5em 2em \dimexpr\hsize-2em 0pt \hsize}
+
 
 
 \let\Abstract\abstract %color al abstract
@@ -35,7 +32,7 @@
 \let\endAbstract\endabstract
 \def\endabstract{\endAbstract\endmdframed\par\bigskip}
 
-\newcommand\doi[1]{\renewcommand\@doi{doi:#1}}
+\newcommand\doi[1]{\renewcommand\@doi{doi:10.61794/#1}}
 \newcommand\@doi{}
 
 \newcommand\received[1]{\renewcommand\@received{Received #1}}
