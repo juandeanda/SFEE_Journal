@@ -7,14 +7,14 @@
 \LoadClass[journal,noindent,headline]{paper}
 %\LoadClass[10pt,letterpaper,twocolumn]{article}
 
-
 \usepackage{xcolor}
 \usepackage{mdframed}
 \usepackage{graphicx}
 \usepackage{academicons}
 \usepackage{svg}
 \usepackage{yfonts,color}
-
+\usepackage{datetime}
+\usepackage{etoolbox}
 
 \newcommand{\headlinecolor}{\normalcolor}
 
@@ -41,6 +41,17 @@
 \newcommand\accepted[1]{\renewcommand\@accepted{Accepted #1}}
 \newcommand\@accepted{}
 
+\newcommand\Vol[1]{\renewcommand\@Vol{#1}}
+\newcommand\@Vol{}
+
+\newcommand\ppInit[1]{\renewcommand\@ppInit{#1}}
+\newcommand\@ppInit{}
+
+\newcommand\ppEnd[1]{\renewcommand\@ppEnd{#1}}
+\newcommand\@ppEnd{}
+
+\oddrunhead{SFEE, Vol. \textsc{\@Vol}, ISSN ???-???, pp. \@ppInit-\@ppEnd}
+
 \DeclareOption{onecolumn}{\OptionNotUsed}
 \DeclareOption{green}{\renewcommand{\headlinecolor}{\color{green}}}
 \DeclareOption{red}{\renewcommand{\headlinecolor}{\color{slcolor}}}
@@ -55,12 +66,13 @@
   \unskip\comma\fnotenum\let\comma,}}%
 }
 
+
+%\fancyfoot[C]{\tiny Copyright \textcopyright\ 2009 All rights reserved. Duplication for purposes of any kind is strictly forbidden.}
+
 \RequirePackage{authblk}
 \renewcommand{\maketitle}{%
-    
     \twocolumn[%
-    \font\myfontDoi=cmr10 at 10pt
-    \raisebox{21pt}{\href{https://sfee.space/}{\includegraphics[width=7.61pc]{logo_sfee.png}}}\par
+    \raisebox{10pt}{\href{https://sfee.space/}{\includegraphics[width=7.61pc]{logo_sfee.png}}} \raisebox{25pt}{\href{https://purisima.tecnm.mx/}{\centering \color{blue} \textcopyright \textbf{\the\year\ Tecnológico  Nacional de México/ITS Purísima del Rincón}}} \raisebox{21pt}{\href{https://creativecommons.org/licenses/by-nc/4.0/deed.en}{\includegraphics[width=3.61pc]{CC.png}}} \par
         \fontsize{15}{15}\fontfamily{phv}\fontseries{b}%
         \fontshape{sl}\selectfont\headlinecolor
         \textbf{\@title} \vskip 4pt
@@ -68,7 +80,7 @@
         \setcounter{footnote}{0}%
         \fontshape{sl}\selectfont\headlinecolor
         \@author \vskip 4pt
-        \myfontDoi\@doi \vskip 3pt
+        \@doi \vskip 3pt
         \@received ; \@accepted
         ]%
     \vskip 4pt
