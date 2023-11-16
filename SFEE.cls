@@ -50,6 +50,9 @@
 \newcommand\ppEnd[1]{\renewcommand\@ppEnd{#1}}
 \newcommand\@ppEnd{}
 
+\newcommand\ISSN[1]{\renewcommand\@ISSN{#1}}
+\newcommand\@ISSN{}
+
 \oddrunhead{SFEE, Vol. \textsc{\@Vol}, ISSN ???-???, pp. \@ppInit-\@ppEnd}
 
 \DeclareOption{onecolumn}{\OptionNotUsed}

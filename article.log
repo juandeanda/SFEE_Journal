@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.11.3)  12 NOV 2023 22:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.11.3)  16 NOV 2023 17:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -948,15 +948,15 @@ LaTeX Info: Redefining \nameref on input line 16.
 <logo_sfee.png, id=24, 1707.2583pt x 995.8806pt>
 File: logo_sfee.png Graphic file (type png)
 <use logo_sfee.png>
-Package pdftex.def Info: logo_sfee.png  used on input line 36.
+Package pdftex.def Info: logo_sfee.png  used on input line 37.
 (pdftex.def)             Requested size: 91.32pt x 53.2616pt.
 <CC.png, id=27, 381.425pt x 133.49875pt>
 File: CC.png Graphic file (type png)
 <use CC.png>
-Package pdftex.def Info: CC.png  used on input line 36.
+Package pdftex.def Info: CC.png  used on input line 37.
 (pdftex.def)             Requested size: 43.32pt x 15.16156pt.
 LaTeX Font Info:    Trying to load font information for OT1+phv on input line 3
-6.
+7.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
@@ -966,24 +966,24 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 36.
+(Font)              <12> on input line 37.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 36.
+(Font)              <8> on input line 37.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 36.
+(Font)              <6> on input line 37.
 
 Article: 
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-Package mdframed Info: Not enough space on this page on input line 38.
+Package mdframed Info: Not enough space on this page on input line 39.
 LaTeX Font Info:    External font `yinit' loaded for size
-(Font)              <10> on input line 45.
+(Font)              <10> on input line 46.
 Package microtype Info: Fixing zero fontdimen6 for font `U/yinit/m/n/10'
-(microtype)             (new value: 38.66664pt) on input line 45.
+(microtype)             (new value: 38.66664pt) on input line 46.
 
-Overfull \hbox (15.29773pt too wide) in paragraph at lines 45--46
+Overfull \hbox (15.29773pt too wide) in paragraph at lines 46--47
 \OT1/cmr/m/n/10 (-20) Cap-il-larit^^?atser-schei-n-un-gen" ("Con-clu-sions draw
 n
  []
@@ -991,11 +991,11 @@ n
 <example-image-a.pdf, id=30, 321.2pt x 240.9pt>
 File: example-image-a.pdf Graphic file (type pdf)
 <use example-image-a.pdf>
-Package pdftex.def Info: example-image-a.pdf  used on input line 48.
+Package pdftex.def Info: example-image-a.pdf  used on input line 49.
 (pdftex.def)             Requested size: 234.73534pt x 176.0577pt.
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <9> not available
-(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 52.
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 53.
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
@@ -1004,18 +1004,18 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <9> not available
  <./logo_sfee.png> <./CC.png> </usr/share/texlive/texmf-dist/tex/latex/mwe/exam
 ple-image-a.pdf>]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 54.
+(Font)              <7> on input line 55.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 54.
+(Font)              <5> on input line 55.
  [2]
 [3] [4] (./article.bbl)
 <Albert_Einstein_Head.jpg, id=77, 391.4625pt x 521.90985pt>
 File: Albert_Einstein_Head.jpg Graphic file (type jpg)
 <use Albert_Einstein_Head.jpg>
-Package pdftex.def Info: Albert_Einstein_Head.jpg  used on input line 87.
+Package pdftex.def Info: Albert_Einstein_Head.jpg  used on input line 88.
 (pdftex.def)             Requested size: 67.75433pt x 90.33217pt.
 
-Underfull \hbox (badness 1142) in paragraph at lines 89--89
+Underfull \hbox (badness 1142) in paragraph at lines 90--90
 \OT1/cmr/m/n/10 (+20) il-larit^^?atser-schei-n-un-gen" ("Con-clu-
  []
 
@@ -1023,10 +1023,10 @@ Underfull \hbox (badness 1142) in paragraph at lines 89--89
 File: Portrait_of_Sir_Isaac_Newton,_1689.jpg Graphic file (type jpg)
 <use Portrait_of_Sir_Isaac_Newton,_1689.jpg>
 Package pdftex.def Info: Portrait_of_Sir_Isaac_Newton,_1689.jpg  used on input 
-line 92.
+line 93.
 (pdftex.def)             Requested size: 72.25594pt x 87.01335pt.
 
-Overfull \hbox (1.12405pt too wide) in paragraph at lines 92--93
+Overfull \hbox (1.12405pt too wide) in paragraph at lines 93--94
 [][] 
  []
 
@@ -1036,10 +1036,10 @@ Package rerunfilecheck Info: File `article.out' has not changed.
 (rerunfilecheck)             Checksum: D868C9DDB81BE5E70A99780CD7ACE3B7;504.
  ) 
 Here is how much of TeX's memory you used:
- 26649 strings out of 478287
- 505348 string characters out of 5849289
- 958772 words of memory out of 5000000
- 44192 multiletter control sequences out of 15000+600000
+ 26651 strings out of 478287
+ 505357 string characters out of 5849289
+ 958782 words of memory out of 5000000
+ 44194 multiletter control sequences out of 15000+600000
  481706 words of font info for 127 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  109i,9n,106p,1047b,780s stack positions out of 5000i,500n,10000p,200000b,80000s
